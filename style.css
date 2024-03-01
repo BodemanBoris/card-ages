@@ -255,7 +255,6 @@ h2 {
 h1 {
   text-align: center;
   font-size: 7rem;
-
   text-transform: uppercase;
   background: linear-gradient(to left, #ff9bbc 50%, #f14a6c 100%);
   -webkit-background-clip: text;
@@ -270,10 +269,10 @@ h1 {
   display: flex;
   justify-content: end;
   align-items: end;
-  padding: 2rem;
+  padding: 1rem 2rem;
   gap: 1rem;
   flex-direction: column;
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 .addres__container {
   width: 100%;
@@ -319,7 +318,7 @@ h4 {
   color: #222;
 }
 .text {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   line-height: 25px;
   color: #222;
   text-wrap: balance;
