@@ -120,8 +120,14 @@ h4 {
   align-items: center;
   gap: 1rem;
 }
-.agus__img {
+.agusimg__container {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.agus__img {
+  width: 60%;
   margin-top: 3rem;
 }
 .dress__title {
