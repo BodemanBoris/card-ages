@@ -254,9 +254,10 @@ h2 {
 }
 h1 {
   text-align: center;
-  font-size: 5rem;
+  font-size: 7rem;
+
   text-transform: uppercase;
-  background: linear-gradient(to right, #ffd0e0 0%, #ff8ea5 100%);
+  background: linear-gradient(to left, #ff9bbc 50%, #f14a6c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -281,6 +282,16 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+.addres__container p {
+  color: #222;
+}
+
+h4 {
+  color: #222;
+  padding: 0.4rem;
+  background-color: #ff9bbc99;
+  border-radius: 1rem;
+}
 .map__link {
   color: goldenrod;
   font-size: 1.5rem;
@@ -302,22 +313,32 @@ h1 {
   width: 100%;
   position: absolute;
   z-index: 999;
-  top: 100px;
+  top: 80px;
+}
+.titulo h2 {
+  color: #222;
 }
 .text {
-  line-height: 30px;
+  margin-top: 3rem;
+  line-height: 25px;
+  color: #222;
   text-wrap: balance;
-  padding: 2rem;
+  padding: 1rem 2rem;
   font-size: 14px;
   text-align: center;
   max-width: 540px;
+  text-transform: uppercase;
 }
 
 section {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(#333, #000);
+  background-image: url("./fondocerezos.JPG");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -347,8 +368,8 @@ section .set div:nth-child(1) {
   animation-delay: -7s;
 }
 .set img {
-  width: 30%;
-  height: 30%;
+  width: 10%;
+  height: 10%;
 }
 section .set div:nth-child(2) {
   left: 50%;
@@ -410,10 +431,10 @@ section .set div:nth-child(8) {
   }
 }
 .set2 {
-  transform: scale(0.2) rotateY(180deg);
+  transform: scale(0.1) rotateY(180deg);
   filter: blur(2px);
 }
 .set3 {
-  transform: scale(0.3) rotateX(180deg);
+  transform: scale(0.2) rotateX(180deg);
   filter: blur(4px);
 }
