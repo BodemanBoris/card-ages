@@ -66,13 +66,18 @@ h1 {
   margin-top: 6rem;
 }
 .addres__container {
-  background-color: #f14a6c30;
-  width: 100%;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  width: 80%;
+  right: 10px;
+  position: absolute;
+  bottom: 80px;
+  background-color: #f14a6c80;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem;
 }
 .addres__container p {
   color: #222;
@@ -80,13 +85,14 @@ h1 {
 
 h4 {
   color: #222;
+  font-weight: bold;
   padding: 0.4rem;
   background-color: #ff9bbc99;
   border-radius: 1rem;
 }
 .map__link {
-  color: #a27d21;
-  font-size: 1.5rem;
+  color: #222;
+  font-size: 2rem;
   text-decoration: none;
 }
 .date__container h2 {
