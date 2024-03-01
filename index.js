@@ -5,6 +5,7 @@ let d = document,
 
 const startDrag = (event) => {
   if (isAnimating) return;
+  event.preventDefault();
 
   const $agusImg = event.target.closest("#agusImg");
 
@@ -26,12 +27,6 @@ const startDrag = (event) => {
 
     isAnimating = true;
     const deg = pullDeltaX / 10;
-
-    /* if (pullDeltaX > 0) {
-      $like.style.opacity = `${pullDeltaX / 100}`;
-    } else {
-      $nope.style.opacity = `${Math.abs(pullDeltaX / 100)}`;
-    } */
 
     $agusImg.style.transform = `translateX(${pullDeltaX}px) rotate(${deg}deg)`;
     $agusImg.style.cursor = "grabbing";
