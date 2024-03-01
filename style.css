@@ -55,7 +55,7 @@ h1 {
 .date__container {
   position: absolute;
   z-index: 999;
-  top: 450px;
+  top: 435px;
   width: 100%;
   display: flex;
   justify-content: end;
@@ -66,11 +66,13 @@ h1 {
   margin-top: 6rem;
 }
 .addres__container {
+  background-color: #f14a6c30;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 .addres__container p {
   color: #222;
@@ -83,7 +85,7 @@ h4 {
   border-radius: 1rem;
 }
 .map__link {
-  color: #daa520;
+  color: #a27d21;
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -114,7 +116,7 @@ h4 {
   text-transform: uppercase;
 }
 .dress__container {
-  margin-top: 12rem;
+  margin-top: 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
